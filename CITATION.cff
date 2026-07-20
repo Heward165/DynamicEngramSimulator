@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+title: Dynamic Engram Simulator
+message: If this software supports your work, cite the repository and release.
+type: software
+authors:
+  - family-names: Vansley
+    given-names: Valdo
+repository-code: https://github.com/Heward165/DynamicEngramSimulator
+version: 0.3.0-preview.1
+license: MIT

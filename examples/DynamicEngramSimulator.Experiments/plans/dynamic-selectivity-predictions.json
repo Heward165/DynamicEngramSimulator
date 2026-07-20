@@ -1,0 +1,19 @@
+{
+  "name": "dynamic-selectivity-predictions",
+  "kind": "Factorial",
+  "options": {
+    "neuronCount": 192,
+    "defaultEngramSize": 24,
+    "driftFractionPerDay": 0.015,
+    "consolidationRatePerDay": 0.04,
+    "recallIterations": 10
+  },
+  "seeds": [401, 402, 403, 404, 405, 406, 407, 408],
+  "createdAt": "2026-07-17T00:00:00Z",
+  "activeStimulusChannels": 30,
+  "relatedStimulusRetention": 0.75,
+  "cueFraction": 0.20,
+  "elapsedDays": 30,
+  "ablations": ["RecallInhibition", "InhibitoryPlasticity", "PopulationDrift"],
+  "maximumInteractionOrder": 1
+}

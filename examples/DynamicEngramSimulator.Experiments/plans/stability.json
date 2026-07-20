@@ -1,0 +1,15 @@
+{
+  "name": "identity-vs-behavior",
+  "kind": "Stability",
+  "options": {
+    "neuronCount": 128,
+    "defaultEngramSize": 20,
+    "driftFractionPerDay": 0.05
+  },
+  "seeds": [1, 2, 3, 4, 5, 6, 7, 8],
+  "createdAt": "2026-07-17T00:00:00Z",
+  "activeStimulusChannels": 64,
+  "relatedStimulusRetention": 0.70,
+  "cueFraction": 0.25,
+  "elapsedDays": 30
+}

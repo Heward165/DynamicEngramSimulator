@@ -1,0 +1,5 @@
+parameter,first_order,total_order,morris_mean_absolute,morris_standard_deviation
+DriftFractionPerDay,,,3.4209493606519405E-05,4.366342521102413E-05
+GlobalInhibition,,,3.877223854621692E-05,7.844316206592304E-06
+ConsolidationRatePerDay,,,5.0776370127588365E-05,3.754210015912557E-05
+ExcitabilityWeight,,,3.6729042338553196E-05,4.2516159278026075E-05

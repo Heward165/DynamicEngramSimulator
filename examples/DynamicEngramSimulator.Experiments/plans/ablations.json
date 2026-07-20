@@ -1,0 +1,23 @@
+{
+  "name": "mechanism-ablations",
+  "kind": "Ablation",
+  "options": {
+    "neuronCount": 128,
+    "defaultEngramSize": 20,
+    "driftFractionPerDay": 0.02
+  },
+  "seeds": [1, 2, 3, 4, 5, 6, 7, 8],
+  "createdAt": "2026-07-17T00:00:00Z",
+  "activeStimulusChannels": 24,
+  "relatedStimulusRetention": 0.70,
+  "cueFraction": 0.25,
+  "elapsedDays": 30,
+  "ablations": [
+    "ExcitabilityAllocation",
+    "RecurrentCompletion",
+    "RecallInhibition",
+    "InhibitoryPlasticity",
+    "Consolidation",
+    "PopulationDrift"
+  ]
+}

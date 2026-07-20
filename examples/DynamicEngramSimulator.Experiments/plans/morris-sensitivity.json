@@ -1,0 +1,25 @@
+{
+  "name": "morris-sensitivity",
+  "kind": "Sensitivity",
+  "options": {
+    "neuronCount": 128,
+    "defaultEngramSize": 20,
+    "driftFractionPerDay": 0.02,
+    "recallIterations": 8
+  },
+  "seeds": [301, 302, 303, 304],
+  "createdAt": "2026-07-17T00:00:00Z",
+  "activeStimulusChannels": 24,
+  "relatedStimulusRetention": 0.70,
+  "cueFraction": 0.25,
+  "elapsedDays": 30,
+  "parameterRanges": [
+    { "parameter": "DriftFractionPerDay", "minimum": 0.001, "maximum": 0.04 },
+    { "parameter": "GlobalInhibition", "minimum": 0.05, "maximum": 0.50 },
+    { "parameter": "ConsolidationRatePerDay", "minimum": 0.005, "maximum": 0.10 },
+    { "parameter": "ExcitabilityWeight", "minimum": 0.05, "maximum": 0.70 }
+  ],
+  "sensitivityMethod": "Morris",
+  "sensitivityMetric": "FinalSelectivity",
+  "sensitivitySamples": 12
+}

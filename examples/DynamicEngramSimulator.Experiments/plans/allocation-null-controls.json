@@ -1,0 +1,17 @@
+{
+  "name": "allocation-null-controls",
+  "kind": "NullControls",
+  "options": {
+    "neuronCount": 128,
+    "defaultEngramSize": 20,
+    "driftFractionPerDay": 0.02,
+    "recallIterations": 8
+  },
+  "seeds": [201, 202, 203, 204, 205, 206, 207, 208],
+  "createdAt": "2026-07-17T00:00:00Z",
+  "activeStimulusChannels": 24,
+  "relatedStimulusRetention": 0.70,
+  "cueFraction": 0.25,
+  "elapsedDays": 30,
+  "nullControls": ["Random", "PermutedStimulus"]
+}

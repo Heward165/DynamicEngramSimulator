@@ -1,0 +1,12 @@
+name: Experiment proposal
+description: Propose a reproducible model or validation experiment.
+title: "[Experiment] "
+body:
+  - type: textarea
+    id: hypothesis
+    attributes: { label: Hypothesis, description: State the falsifiable question. }
+    validations: { required: true }
+  - type: textarea
+    id: protocol
+    attributes: { label: Protocol, description: Describe parameters, seeds, baselines, and metrics. }
+    validations: { required: true }

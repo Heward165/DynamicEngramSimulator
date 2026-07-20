@@ -1,0 +1,764 @@
+{
+  "manifest": {
+    "libraryVersion": "0.4.0.0",
+    "commitSha": "f24bc48d2331aaf4d021dc28b0fa0bc1b15feb2b",
+    "definitionSha256": "0a64ea2b809f908fbb40f6618fdef6c9f2c4edeefc9e2212f2ec5fbd30f9f77f",
+    "runtime": "10.0.7",
+    "operatingSystem": "Microsoft Windows NT 10.0.26200.0",
+    "createdAt": "2026-07-17T00:00:00+00:00"
+  },
+  "definition": {
+    "baseline": {
+      "baseOptions": {
+        "mechanisms": {
+          "id": "default",
+          "excitabilityAllocation": true,
+          "recurrentCompletion": true,
+          "recallInhibition": true,
+          "inhibitoryPlasticity": true,
+          "consolidation": true,
+          "populationDrift": true
+        },
+        "allocationControl": "Mechanistic",
+        "neuronCount": 192,
+        "defaultEngramSize": 24,
+        "stimulusWeight": 1,
+        "excitabilityWeight": 0.35,
+        "encodingExcitabilityBoost": 0.08,
+        "excitabilityRelaxationRatePerDay": 0.02,
+        "allocationNoise": 0.03,
+        "hebbianStrength": 0.85,
+        "recallIterations": 10,
+        "recurrentGain": 2.5,
+        "activationGain": 6,
+        "activationMidpoint": 0.35,
+        "activationLeak": 0.25,
+        "globalInhibition": 0.25,
+        "pairInhibitionRate": 0.45,
+        "driftFractionPerDay": 0.015,
+        "membershipHalfLifeDays": 180,
+        "consolidationRatePerDay": 0.04,
+        "activationThreshold": 0.5,
+        "successThreshold": 0.55,
+        "randomSeed": 3517376164
+      },
+      "seeds": [
+        401,
+        402,
+        403,
+        404,
+        405,
+        406,
+        407,
+        408
+      ],
+      "activeStimulusChannels": 30,
+      "relatedStimulusRetention": 0.75,
+      "cueFraction": 0.2,
+      "elapsedDays": 30
+    },
+    "mechanisms": [
+      "RecallInhibition",
+      "InhibitoryPlasticity",
+      "PopulationDrift"
+    ],
+    "maximumInteractionOrder": 1
+  },
+  "baseline": {
+    "libraryVersion": "0.4.0.0",
+    "createdAt": "2026-07-17T00:00:00+00:00",
+    "definition": {
+      "baseOptions": {
+        "mechanisms": {
+          "id": "default",
+          "excitabilityAllocation": true,
+          "recurrentCompletion": true,
+          "recallInhibition": true,
+          "inhibitoryPlasticity": true,
+          "consolidation": true,
+          "populationDrift": true
+        },
+        "allocationControl": "Mechanistic",
+        "neuronCount": 192,
+        "defaultEngramSize": 24,
+        "stimulusWeight": 1,
+        "excitabilityWeight": 0.35,
+        "encodingExcitabilityBoost": 0.08,
+        "excitabilityRelaxationRatePerDay": 0.02,
+        "allocationNoise": 0.03,
+        "hebbianStrength": 0.85,
+        "recallIterations": 10,
+        "recurrentGain": 2.5,
+        "activationGain": 6,
+        "activationMidpoint": 0.35,
+        "activationLeak": 0.25,
+        "globalInhibition": 0.25,
+        "pairInhibitionRate": 0.45,
+        "driftFractionPerDay": 0.015,
+        "membershipHalfLifeDays": 180,
+        "consolidationRatePerDay": 0.04,
+        "activationThreshold": 0.5,
+        "successThreshold": 0.55,
+        "randomSeed": 3517376164
+      },
+      "seeds": [
+        401,
+        402,
+        403,
+        404,
+        405,
+        406,
+        407,
+        408
+      ],
+      "activeStimulusChannels": 30,
+      "relatedStimulusRetention": 0.75,
+      "cueFraction": 0.2,
+      "elapsedDays": 30
+    },
+    "runs": [
+      {
+        "seed": 401,
+        "initialSelectivity": 2.2000878580619165E-05,
+        "finalSelectivity": 4.0838507747831265E-05,
+        "populationIdentity": 0.8461538461538461,
+        "behavioralStability": 0.9999755310188378,
+        "initialRecallSucceeded": true,
+        "finalRecallSucceeded": true
+      },
+      {
+        "seed": 402,
+        "initialSelectivity": 1.5376933779620572E-05,
+        "finalSelectivity": 4.2523151325801756E-05,
+        "populationIdentity": 0.92,
+        "behavioralStability": 0.9999757837344931,
+        "initialRecallSucceeded": true,
+        "finalRecallSucceeded": true
+      },
+      {
+        "seed": 403,
+        "initialSelectivity": 8.171492633546329E-06,
+        "finalSelectivity": 3.4246989569108877E-05,
+        "populationIdentity": 0.92,
+        "behavioralStability": 0.9999758512520571,
+        "initialRecallSucceeded": true,
+        "finalRecallSucceeded": true
+      },
+      {
+        "seed": 404,
+        "initialSelectivity": 1.809754195425395E-05,
+        "finalSelectivity": 4.124181742415356E-05,
+        "populationIdentity": 0.92,
+        "behavioralStability": 0.9999763783185656,
+        "initialRecallSucceeded": true,
+        "finalRecallSucceeded": true
+      },
+      {
+        "seed": 405,
+        "initialSelectivity": 1.9655974851873204E-05,
+        "finalSelectivity": 4.4666845281815526E-05,
+        "populationIdentity": 0.8461538461538461,
+        "behavioralStability": 0.9999760091023788,
+        "initialRecallSucceeded": true,
+        "finalRecallSucceeded": true
+      },
+      {
+        "seed": 406,
+        "initialSelectivity": 2.348192927115189E-05,
+        "finalSelectivity": 5.2357058159757663E-05,
+        "populationIdentity": 1,
+        "behavioralStability": 0.9999744104178718,
+        "initialRecallSucceeded": true,
+        "finalRecallSucceeded": true
+      },
+      {
+        "seed": 407,
+        "initialSelectivity": 1.609826448434326E-05,
+        "finalSelectivity": 4.973156061238715E-05,
+        "populationIdentity": 0.92,
+        "behavioralStability": 0.9999739886171944,
+        "initialRecallSucceeded": true,
+        "finalRecallSucceeded": true
+      },
+      {
+        "seed": 408,
+        "initialSelectivity": 2.40795165233898E-05,
+        "finalSelectivity": 4.317349334159726E-05,
+        "populationIdentity": 0.92,
+        "behavioralStability": 0.9999748914331277,
+        "initialRecallSucceeded": true,
+        "finalRecallSucceeded": true
+      }
+    ],
+    "meanPopulationIdentity": 0.9115384615384615,
+    "populationIdentityStandardDeviation": 0.045735281526753074,
+    "meanBehavioralStability": 0.9999753554868158,
+    "recallSurvivalRate": 1,
+    "manifest": {
+      "libraryVersion": "0.4.0.0",
+      "commitSha": "f24bc48d2331aaf4d021dc28b0fa0bc1b15feb2b",
+      "definitionSha256": "d9f0a5f9ffda895d5e9444062aa2593ac82669fead52739b91432861a9323642",
+      "runtime": "10.0.7",
+      "operatingSystem": "Microsoft Windows NT 10.0.26200.0",
+      "createdAt": "2026-07-17T00:00:00+00:00"
+    },
+    "populationIdentitySummary": {
+      "count": 8,
+      "mean": 0.9115384615384615,
+      "standardDeviation": 0.045735281526753074,
+      "median": 0.92,
+      "minimum": 0.8461538461538461,
+      "maximum": 1,
+      "confidenceLower": 0.883076923076923,
+      "confidenceUpper": 0.9407692307692308
+    },
+    "behavioralStabilitySummary": {
+      "count": 8,
+      "mean": 0.9999753554868158,
+      "standardDeviation": 7.834397334095078E-07,
+      "median": 0.9999756573766655,
+      "minimum": 0.9999739886171944,
+      "maximum": 0.9999763783185656,
+      "confidenceLower": 0.9999747756677689,
+      "confidenceUpper": 0.999975880585002
+    }
+  },
+  "conditions": [
+    {
+      "name": "without-inhibition",
+      "disabledMechanisms": [
+        "RecallInhibition"
+      ],
+      "experiment": {
+        "libraryVersion": "0.4.0.0",
+        "createdAt": "2026-07-17T00:00:00+00:00",
+        "definition": {
+          "baseOptions": {
+            "mechanisms": {
+              "id": "without-inhibition",
+              "excitabilityAllocation": true,
+              "recurrentCompletion": true,
+              "recallInhibition": false,
+              "inhibitoryPlasticity": true,
+              "consolidation": true,
+              "populationDrift": true
+            },
+            "allocationControl": "Mechanistic",
+            "neuronCount": 192,
+            "defaultEngramSize": 24,
+            "stimulusWeight": 1,
+            "excitabilityWeight": 0.35,
+            "encodingExcitabilityBoost": 0.08,
+            "excitabilityRelaxationRatePerDay": 0.02,
+            "allocationNoise": 0.03,
+            "hebbianStrength": 0.85,
+            "recallIterations": 10,
+            "recurrentGain": 2.5,
+            "activationGain": 6,
+            "activationMidpoint": 0.35,
+            "activationLeak": 0.25,
+            "globalInhibition": 0.25,
+            "pairInhibitionRate": 0.45,
+            "driftFractionPerDay": 0.015,
+            "membershipHalfLifeDays": 180,
+            "consolidationRatePerDay": 0.04,
+            "activationThreshold": 0.5,
+            "successThreshold": 0.55,
+            "randomSeed": 3517376164
+          },
+          "seeds": [
+            401,
+            402,
+            403,
+            404,
+            405,
+            406,
+            407,
+            408
+          ],
+          "activeStimulusChannels": 30,
+          "relatedStimulusRetention": 0.75,
+          "cueFraction": 0.2,
+          "elapsedDays": 30
+        },
+        "runs": [
+          {
+            "seed": 401,
+            "initialSelectivity": 7.629491216576412E-07,
+            "finalSelectivity": 1.6431073565081888E-06,
+            "populationIdentity": 0.8461538461538461,
+            "behavioralStability": 0.9999861255665545,
+            "initialRecallSucceeded": true,
+            "finalRecallSucceeded": true
+          },
+          {
+            "seed": 402,
+            "initialSelectivity": 5.928825147494265E-07,
+            "finalSelectivity": 1.301508059770029E-06,
+            "populationIdentity": 0.92,
+            "behavioralStability": 0.9999863984454557,
+            "initialRecallSucceeded": true,
+            "finalRecallSucceeded": true
+          },
+          {
+            "seed": 403,
+            "initialSelectivity": 4.6820445875894734E-07,
+            "finalSelectivity": 2.540738317513558E-06,
+            "populationIdentity": 0.92,
+            "behavioralStability": 0.9999863587499337,
+            "initialRecallSucceeded": true,
+            "finalRecallSucceeded": true
+          },
+          {
+            "seed": 404,
+            "initialSelectivity": 5.636461122282554E-07,
+            "finalSelectivity": 1.1233553671718965E-06,
+            "populationIdentity": 0.92,
+            "behavioralStability": 0.9999860563467948,
+            "initialRecallSucceeded": true,
+            "finalRecallSucceeded": true
+          },
+          {
+            "seed": 405,
+            "initialSelectivity": -2.2191885495903563E-07,
+            "finalSelectivity": -3.325786583907586E-07,
+            "populationIdentity": 0.8461538461538461,
+            "behavioralStability": 0.9999863786893272,
+            "initialRecallSucceeded": false,
+            "finalRecallSucceeded": false
+          },
+          {
+            "seed": 406,
+            "initialSelectivity": 1.4480446247633338E-06,
+            "finalSelectivity": 3.057827593022644E-06,
+            "populationIdentity": 1,
+            "behavioralStability": 0.9999860474435285,
+            "initialRecallSucceeded": true,
+            "finalRecallSucceeded": true
+          },
+          {
+            "seed": 407,
+            "initialSelectivity": 1.2629329766422615E-06,
+            "finalSelectivity": 2.7274725494796925E-06,
+            "populationIdentity": 0.92,
+            "behavioralStability": 0.9999856380080996,
+            "initialRecallSucceeded": true,
+            "finalRecallSucceeded": true
+          },
+          {
+            "seed": 408,
+            "initialSelectivity": -2.8951102182261934E-08,
+            "finalSelectivity": -2.651167464451376E-07,
+            "populationIdentity": 0.92,
+            "behavioralStability": 0.9999857499079657,
+            "initialRecallSucceeded": false,
+            "finalRecallSucceeded": false
+          }
+        ],
+        "meanPopulationIdentity": 0.9115384615384615,
+        "populationIdentityStandardDeviation": 0.045735281526753074,
+        "meanBehavioralStability": 0.9999860941447073,
+        "recallSurvivalRate": 0.75,
+        "manifest": {
+          "libraryVersion": "0.4.0.0",
+          "commitSha": "f24bc48d2331aaf4d021dc28b0fa0bc1b15feb2b",
+          "definitionSha256": "37418152fb622df5f1121b59f27978c9fdf4bfd7d9de5a7fabd922e0d67234bf",
+          "runtime": "10.0.7",
+          "operatingSystem": "Microsoft Windows NT 10.0.26200.0",
+          "createdAt": "2026-07-17T00:00:00+00:00"
+        },
+        "populationIdentitySummary": {
+          "count": 8,
+          "mean": 0.9115384615384615,
+          "standardDeviation": 0.045735281526753074,
+          "median": 0.92,
+          "minimum": 0.8461538461538461,
+          "maximum": 1,
+          "confidenceLower": 0.883076923076923,
+          "confidenceUpper": 0.9407692307692308
+        },
+        "behavioralStabilitySummary": {
+          "count": 8,
+          "mean": 0.9999860941447073,
+          "standardDeviation": 2.6803382853080274E-07,
+          "median": 0.9999860909566747,
+          "minimum": 0.9999856380080996,
+          "maximum": 0.9999863984454557,
+          "confidenceLower": 0.9999859089776033,
+          "confidenceUpper": 0.9999862672181675
+        }
+      },
+      "finalSelectivityInference": {
+        "pairCount": 8,
+        "meanDifference": -4.212288870297787E-05,
+        "standardizedEffect": -7.741629926935967,
+        "confidenceLower": -4.543627216521753E-05,
+        "confidenceUpper": -3.8387030071937796E-05,
+        "twoSidedPValue": 0.0078125
+      }
+    },
+    {
+      "name": "without-plasticity",
+      "disabledMechanisms": [
+        "InhibitoryPlasticity"
+      ],
+      "experiment": {
+        "libraryVersion": "0.4.0.0",
+        "createdAt": "2026-07-17T00:00:00+00:00",
+        "definition": {
+          "baseOptions": {
+            "mechanisms": {
+              "id": "without-plasticity",
+              "excitabilityAllocation": true,
+              "recurrentCompletion": true,
+              "recallInhibition": true,
+              "inhibitoryPlasticity": false,
+              "consolidation": true,
+              "populationDrift": true
+            },
+            "allocationControl": "Mechanistic",
+            "neuronCount": 192,
+            "defaultEngramSize": 24,
+            "stimulusWeight": 1,
+            "excitabilityWeight": 0.35,
+            "encodingExcitabilityBoost": 0.08,
+            "excitabilityRelaxationRatePerDay": 0.02,
+            "allocationNoise": 0.03,
+            "hebbianStrength": 0.85,
+            "recallIterations": 10,
+            "recurrentGain": 2.5,
+            "activationGain": 6,
+            "activationMidpoint": 0.35,
+            "activationLeak": 0.25,
+            "globalInhibition": 0.25,
+            "pairInhibitionRate": 0.45,
+            "driftFractionPerDay": 0.015,
+            "membershipHalfLifeDays": 180,
+            "consolidationRatePerDay": 0.04,
+            "activationThreshold": 0.5,
+            "successThreshold": 0.55,
+            "randomSeed": 3517376164
+          },
+          "seeds": [
+            401,
+            402,
+            403,
+            404,
+            405,
+            406,
+            407,
+            408
+          ],
+          "activeStimulusChannels": 30,
+          "relatedStimulusRetention": 0.75,
+          "cueFraction": 0.2,
+          "elapsedDays": 30
+        },
+        "runs": [
+          {
+            "seed": 401,
+            "initialSelectivity": 1.1398551815755553E-06,
+            "finalSelectivity": 2.257400584126934E-06,
+            "populationIdentity": 0.8461538461538461,
+            "behavioralStability": 0.9999756280773419,
+            "initialRecallSucceeded": true,
+            "finalRecallSucceeded": true
+          },
+          {
+            "seed": 402,
+            "initialSelectivity": 1.1264354567996904E-06,
+            "finalSelectivity": 2.8691317162099494E-06,
+            "populationIdentity": 0.92,
+            "behavioralStability": 0.9999759019198978,
+            "initialRecallSucceeded": true,
+            "finalRecallSucceeded": true
+          },
+          {
+            "seed": 403,
+            "initialSelectivity": 6.264453070725651E-07,
+            "finalSelectivity": 3.8029584592536025E-06,
+            "populationIdentity": 0.92,
+            "behavioralStability": 0.9999759643741268,
+            "initialRecallSucceeded": true,
+            "finalRecallSucceeded": true
+          },
+          {
+            "seed": 404,
+            "initialSelectivity": 9.082377476765657E-07,
+            "finalSelectivity": 2.353498050999825E-06,
+            "populationIdentity": 0.92,
+            "behavioralStability": 0.9999764856332303,
+            "initialRecallSucceeded": true,
+            "finalRecallSucceeded": true
+          },
+          {
+            "seed": 405,
+            "initialSelectivity": -3.4843291341069005E-07,
+            "finalSelectivity": -7.556290452237491E-07,
+            "populationIdentity": 0.8461538461538461,
+            "behavioralStability": 0.9999760932934041,
+            "initialRecallSucceeded": false,
+            "finalRecallSucceeded": false
+          },
+          {
+            "seed": 406,
+            "initialSelectivity": 2.523475076010584E-06,
+            "finalSelectivity": 5.599745204754036E-06,
+            "populationIdentity": 1,
+            "behavioralStability": 0.9999745342235791,
+            "initialRecallSucceeded": true,
+            "finalRecallSucceeded": true
+          },
+          {
+            "seed": 407,
+            "initialSelectivity": 1.7345481880814972E-06,
+            "finalSelectivity": 3.826761513225918E-06,
+            "populationIdentity": 0.92,
+            "behavioralStability": 0.9999740940448847,
+            "initialRecallSucceeded": true,
+            "finalRecallSucceeded": true
+          },
+          {
+            "seed": 408,
+            "initialSelectivity": 4.279277376895152E-09,
+            "finalSelectivity": -1.2747776638732944E-06,
+            "populationIdentity": 0.92,
+            "behavioralStability": 0.9999750015074441,
+            "initialRecallSucceeded": true,
+            "finalRecallSucceeded": false
+          }
+        ],
+        "meanPopulationIdentity": 0.9115384615384615,
+        "populationIdentityStandardDeviation": 0.045735281526753074,
+        "meanBehavioralStability": 0.9999754628842386,
+        "recallSurvivalRate": 0.75,
+        "manifest": {
+          "libraryVersion": "0.4.0.0",
+          "commitSha": "f24bc48d2331aaf4d021dc28b0fa0bc1b15feb2b",
+          "definitionSha256": "ddd54875aa7b8fec5956e71e4f5ae6f1918499400fb34ce3195345314ed3c933",
+          "runtime": "10.0.7",
+          "operatingSystem": "Microsoft Windows NT 10.0.26200.0",
+          "createdAt": "2026-07-17T00:00:00+00:00"
+        },
+        "populationIdentitySummary": {
+          "count": 8,
+          "mean": 0.9115384615384615,
+          "standardDeviation": 0.045735281526753074,
+          "median": 0.92,
+          "minimum": 0.8461538461538461,
+          "maximum": 1,
+          "confidenceLower": 0.883076923076923,
+          "confidenceUpper": 0.9407692307692308
+        },
+        "behavioralStabilitySummary": {
+          "count": 8,
+          "mean": 0.9999754628842386,
+          "standardDeviation": 7.797407212660525E-07,
+          "median": 0.9999757649986198,
+          "minimum": 0.9999740940448847,
+          "maximum": 0.9999764856332303,
+          "confidenceLower": 0.9999748896758869,
+          "confidenceUpper": 0.9999759880369767
+        }
+      },
+      "finalSelectivityInference": {
+        "pairCount": 8,
+        "meanDifference": -4.126254183037248E-05,
+        "standardizedEffect": -7.504025631766755,
+        "confidenceLower": -4.465664831563611E-05,
+        "confidenceUpper": -3.7418494873889615E-05,
+        "twoSidedPValue": 0.0078125
+      }
+    },
+    {
+      "name": "without-drift",
+      "disabledMechanisms": [
+        "PopulationDrift"
+      ],
+      "experiment": {
+        "libraryVersion": "0.4.0.0",
+        "createdAt": "2026-07-17T00:00:00+00:00",
+        "definition": {
+          "baseOptions": {
+            "mechanisms": {
+              "id": "without-drift",
+              "excitabilityAllocation": true,
+              "recurrentCompletion": true,
+              "recallInhibition": true,
+              "inhibitoryPlasticity": true,
+              "consolidation": true,
+              "populationDrift": false
+            },
+            "allocationControl": "Mechanistic",
+            "neuronCount": 192,
+            "defaultEngramSize": 24,
+            "stimulusWeight": 1,
+            "excitabilityWeight": 0.35,
+            "encodingExcitabilityBoost": 0.08,
+            "excitabilityRelaxationRatePerDay": 0.02,
+            "allocationNoise": 0.03,
+            "hebbianStrength": 0.85,
+            "recallIterations": 10,
+            "recurrentGain": 2.5,
+            "activationGain": 6,
+            "activationMidpoint": 0.35,
+            "activationLeak": 0.25,
+            "globalInhibition": 0.25,
+            "pairInhibitionRate": 0.45,
+            "driftFractionPerDay": 0.015,
+            "membershipHalfLifeDays": 180,
+            "consolidationRatePerDay": 0.04,
+            "activationThreshold": 0.5,
+            "successThreshold": 0.55,
+            "randomSeed": 3517376164
+          },
+          "seeds": [
+            401,
+            402,
+            403,
+            404,
+            405,
+            406,
+            407,
+            408
+          ],
+          "activeStimulusChannels": 30,
+          "relatedStimulusRetention": 0.75,
+          "cueFraction": 0.2,
+          "elapsedDays": 30
+        },
+        "runs": [
+          {
+            "seed": 401,
+            "initialSelectivity": 2.2000878580619165E-05,
+            "finalSelectivity": 5.002511271090526E-05,
+            "populationIdentity": 1,
+            "behavioralStability": 0.9999753248180323,
+            "initialRecallSucceeded": true,
+            "finalRecallSucceeded": true
+          },
+          {
+            "seed": 402,
+            "initialSelectivity": 1.5376933779620572E-05,
+            "finalSelectivity": 3.521141913098713E-05,
+            "populationIdentity": 1,
+            "behavioralStability": 0.999975821585057,
+            "initialRecallSucceeded": true,
+            "finalRecallSucceeded": true
+          },
+          {
+            "seed": 403,
+            "initialSelectivity": 8.171492633546329E-06,
+            "finalSelectivity": 1.87579700486884E-05,
+            "populationIdentity": 1,
+            "behavioralStability": 0.9999766795870038,
+            "initialRecallSucceeded": true,
+            "finalRecallSucceeded": true
+          },
+          {
+            "seed": 404,
+            "initialSelectivity": 1.809754195425395E-05,
+            "finalSelectivity": 4.128607585063282E-05,
+            "populationIdentity": 1,
+            "behavioralStability": 0.999975975591985,
+            "initialRecallSucceeded": true,
+            "finalRecallSucceeded": true
+          },
+          {
+            "seed": 405,
+            "initialSelectivity": 1.9655974851873204E-05,
+            "finalSelectivity": 4.483219437023678E-05,
+            "populationIdentity": 1,
+            "behavioralStability": 0.9999754574340631,
+            "initialRecallSucceeded": true,
+            "finalRecallSucceeded": true
+          },
+          {
+            "seed": 406,
+            "initialSelectivity": 2.348192927115189E-05,
+            "finalSelectivity": 5.34272942229741E-05,
+            "populationIdentity": 1,
+            "behavioralStability": 0.999974262110931,
+            "initialRecallSucceeded": true,
+            "finalRecallSucceeded": true
+          },
+          {
+            "seed": 407,
+            "initialSelectivity": 1.609826448434326E-05,
+            "finalSelectivity": 3.6592352009812146E-05,
+            "populationIdentity": 1,
+            "behavioralStability": 0.9999740751471126,
+            "initialRecallSucceeded": true,
+            "finalRecallSucceeded": true
+          },
+          {
+            "seed": 408,
+            "initialSelectivity": 2.40795165233898E-05,
+            "finalSelectivity": 5.483790820726142E-05,
+            "populationIdentity": 1,
+            "behavioralStability": 0.9999747620952514,
+            "initialRecallSucceeded": true,
+            "finalRecallSucceeded": true
+          }
+        ],
+        "meanPopulationIdentity": 1,
+        "populationIdentityStandardDeviation": 0,
+        "meanBehavioralStability": 0.9999752947961796,
+        "recallSurvivalRate": 1,
+        "manifest": {
+          "libraryVersion": "0.4.0.0",
+          "commitSha": "f24bc48d2331aaf4d021dc28b0fa0bc1b15feb2b",
+          "definitionSha256": "3651819251660fe40f9930b7a633daf4bf18b18c2fb37d7b887655b10ea4ab3c",
+          "runtime": "10.0.7",
+          "operatingSystem": "Microsoft Windows NT 10.0.26200.0",
+          "createdAt": "2026-07-17T00:00:00+00:00"
+        },
+        "populationIdentitySummary": {
+          "count": 8,
+          "mean": 1,
+          "standardDeviation": 0,
+          "median": 1,
+          "minimum": 1,
+          "maximum": 1,
+          "confidenceLower": 1,
+          "confidenceUpper": 1
+        },
+        "behavioralStabilitySummary": {
+          "count": 8,
+          "mean": 0.9999752947961796,
+          "standardDeviation": 8.309437720086772E-07,
+          "median": 0.9999753911260477,
+          "minimum": 0.9999740751471126,
+          "maximum": 0.9999766795870038,
+          "confidenceLower": 0.9999747282288401,
+          "confidenceUpper": 0.9999758511801481
+        }
+      },
+      "finalSelectivityInference": {
+        "pairCount": 8,
+        "meanDifference": -1.7261371138693749E-06,
+        "standardizedEffect": -0.1772578618181458,
+        "confidenceLower": -8.34870540047175E-06,
+        "confidenceUpper": 4.45876888009733E-06,
+        "twoSidedPValue": 0.625
+      }
+    }
+  ],
+  "adjustedSelectivityTests": [
+    {
+      "name": "without-inhibition",
+      "rawPValue": 0.0078125,
+      "adjustedPValue": 0.01171875
+    },
+    {
+      "name": "without-plasticity",
+      "rawPValue": 0.0078125,
+      "adjustedPValue": 0.01171875
+    },
+    {
+      "name": "without-drift",
+      "rawPValue": 0.625,
+      "adjustedPValue": 0.625
+    }
+  ]
+}

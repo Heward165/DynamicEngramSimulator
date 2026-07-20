@@ -1,0 +1,9 @@
+<Solution>
+  <Project Path="src/DynamicEngramSimulator/DynamicEngramSimulator.csproj" />
+  <Project Path="tests/DynamicEngramSimulator.Conformance/DynamicEngramSimulator.Conformance.csproj" />
+  <Project Path="tests/DynamicEngramSimulator.Tests/DynamicEngramSimulator.Tests.csproj" />
+  <Project Path="examples/DynamicEngramSimulator.Example/DynamicEngramSimulator.Example.csproj" />
+  <Project Path="examples/DynamicEngramSimulator.Experiments/DynamicEngramSimulator.Experiments.csproj" />
+  <Project Path="examples/DynamicEngramSimulator.Systems/DynamicEngramSimulator.Systems.csproj" />
+  <Project Path="benchmarks/DynamicEngramSimulator.Benchmarks/DynamicEngramSimulator.Benchmarks.csproj" />
+</Solution>

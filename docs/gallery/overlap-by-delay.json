@@ -1,0 +1,598 @@
+{
+  "manifest": {
+    "libraryVersion": "0.3.0.0",
+    "commitSha": "936d2db00f678b997f3f47255ae311f4a3d8c331",
+    "definitionSha256": "abbddbba5a454102b7a3a71505121f2fa423b4dd8445941b50be1b012ce8fb2c",
+    "runtime": "10.0.7",
+    "operatingSystem": "Microsoft Windows NT 10.0.26200.0",
+    "createdAt": "2026-07-17T00:00:00+00:00"
+  },
+  "definition": {
+    "baseOptions": {
+      "mechanisms": {
+        "id": "default",
+        "excitabilityAllocation": true,
+        "recurrentCompletion": true,
+        "recallInhibition": true,
+        "inhibitoryPlasticity": true,
+        "consolidation": true,
+        "populationDrift": true
+      },
+      "neuronCount": 128,
+      "defaultEngramSize": 20,
+      "stimulusWeight": 1,
+      "excitabilityWeight": 0.8,
+      "encodingExcitabilityBoost": 0.35,
+      "excitabilityRelaxationRatePerDay": 1,
+      "allocationNoise": 0.03,
+      "hebbianStrength": 0.85,
+      "recallIterations": 12,
+      "recurrentGain": 2.5,
+      "activationGain": 6,
+      "activationMidpoint": 0.35,
+      "activationLeak": 0.25,
+      "globalInhibition": 0.25,
+      "pairInhibitionRate": 0.45,
+      "driftFractionPerDay": 0.005,
+      "membershipHalfLifeDays": 180,
+      "consolidationRatePerDay": 0.04,
+      "activationThreshold": 0.5,
+      "successThreshold": 0.55,
+      "randomSeed": 3517376164
+    },
+    "seeds": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "delaysHours": [
+      0,
+      6,
+      24,
+      72,
+      168
+    ],
+    "activeStimulusChannels": 24,
+    "relatedStimulusRetention": 0.25,
+    "cueFraction": 0.25
+  },
+  "runs": [
+    {
+      "seed": 1,
+      "delayHours": 0,
+      "populationOverlap": 0.17647058823529413,
+      "firstRecallSelectivity": 8.850799225745831E-06,
+      "secondRecallSelectivity": 1.0129059194285972E-05,
+      "firstRecallSucceeded": true,
+      "secondRecallSucceeded": true
+    },
+    {
+      "seed": 2,
+      "delayHours": 0,
+      "populationOverlap": 0.1111111111111111,
+      "firstRecallSelectivity": 1.3017583754493245E-05,
+      "secondRecallSelectivity": 1.3890607866495763E-05,
+      "firstRecallSucceeded": true,
+      "secondRecallSucceeded": true
+    },
+    {
+      "seed": 3,
+      "delayHours": 0,
+      "populationOverlap": 0.14285714285714285,
+      "firstRecallSelectivity": 1.1804850903684994E-05,
+      "secondRecallSelectivity": 9.387468612009897E-06,
+      "firstRecallSucceeded": true,
+      "secondRecallSucceeded": true
+    },
+    {
+      "seed": 4,
+      "delayHours": 0,
+      "populationOverlap": 0.14285714285714285,
+      "firstRecallSelectivity": 1.0899653983820201E-05,
+      "secondRecallSelectivity": 1.2666929682714212E-05,
+      "firstRecallSucceeded": true,
+      "secondRecallSucceeded": true
+    },
+    {
+      "seed": 5,
+      "delayHours": 0,
+      "populationOverlap": 0.14285714285714285,
+      "firstRecallSelectivity": 1.2516736797252292E-05,
+      "secondRecallSelectivity": 7.883454794965772E-06,
+      "firstRecallSucceeded": true,
+      "secondRecallSucceeded": true
+    },
+    {
+      "seed": 6,
+      "delayHours": 0,
+      "populationOverlap": 0.14285714285714285,
+      "firstRecallSelectivity": 1.1180007647659806E-05,
+      "secondRecallSelectivity": 1.4232481427178811E-05,
+      "firstRecallSucceeded": true,
+      "secondRecallSucceeded": true
+    },
+    {
+      "seed": 7,
+      "delayHours": 0,
+      "populationOverlap": 0.14285714285714285,
+      "firstRecallSelectivity": 8.503767022438602E-06,
+      "secondRecallSelectivity": 1.153522724250955E-05,
+      "firstRecallSucceeded": true,
+      "secondRecallSucceeded": true
+    },
+    {
+      "seed": 8,
+      "delayHours": 0,
+      "populationOverlap": 0.14285714285714285,
+      "firstRecallSelectivity": 1.1378683552942803E-05,
+      "secondRecallSelectivity": 1.0593947608827925E-05,
+      "firstRecallSucceeded": true,
+      "secondRecallSucceeded": true
+    },
+    {
+      "seed": 1,
+      "delayHours": 6,
+      "populationOverlap": 0.17647058823529413,
+      "firstRecallSelectivity": 8.90070952774824E-06,
+      "secondRecallSelectivity": 1.0338228318751419E-05,
+      "firstRecallSucceeded": true,
+      "secondRecallSucceeded": true
+    },
+    {
+      "seed": 2,
+      "delayHours": 6,
+      "populationOverlap": 0.1111111111111111,
+      "firstRecallSelectivity": 1.3010151570180817E-05,
+      "secondRecallSelectivity": 1.4158311640422028E-05,
+      "firstRecallSucceeded": true,
+      "secondRecallSucceeded": true
+    },
+    {
+      "seed": 3,
+      "delayHours": 6,
+      "populationOverlap": 0.14285714285714285,
+      "firstRecallSelectivity": 1.1777219118935811E-05,
+      "secondRecallSelectivity": 9.595711567889076E-06,
+      "firstRecallSucceeded": true,
+      "secondRecallSucceeded": true
+    },
+    {
+      "seed": 4,
+      "delayHours": 6,
+      "populationOverlap": 0.14285714285714285,
+      "firstRecallSelectivity": 1.0903166341336146E-05,
+      "secondRecallSelectivity": 1.288457339498894E-05,
+      "firstRecallSucceeded": true,
+      "secondRecallSucceeded": true
+    },
+    {
+      "seed": 5,
+      "delayHours": 6,
+      "populationOverlap": 0.14285714285714285,
+      "firstRecallSelectivity": 1.2720056749793152E-05,
+      "secondRecallSelectivity": 7.935716049289887E-06,
+      "firstRecallSucceeded": true,
+      "secondRecallSucceeded": true
+    },
+    {
+      "seed": 6,
+      "delayHours": 6,
+      "populationOverlap": 0.14285714285714285,
+      "firstRecallSelectivity": 1.1424700420925582E-05,
+      "secondRecallSelectivity": 1.4283646914581283E-05,
+      "firstRecallSucceeded": true,
+      "secondRecallSucceeded": true
+    },
+    {
+      "seed": 7,
+      "delayHours": 6,
+      "populationOverlap": 0.14285714285714285,
+      "firstRecallSelectivity": 8.276946275920238E-06,
+      "secondRecallSelectivity": 1.1877512990254857E-05,
+      "firstRecallSucceeded": true,
+      "secondRecallSucceeded": true
+    },
+    {
+      "seed": 8,
+      "delayHours": 6,
+      "populationOverlap": 0.14285714285714285,
+      "firstRecallSelectivity": 1.1531561498134835E-05,
+      "secondRecallSelectivity": 1.0756991405513894E-05,
+      "firstRecallSucceeded": true,
+      "secondRecallSucceeded": true
+    },
+    {
+      "seed": 1,
+      "delayHours": 24,
+      "populationOverlap": 0.17647058823529413,
+      "firstRecallSelectivity": 9.050420698653028E-06,
+      "secondRecallSelectivity": 1.0981137501642202E-05,
+      "firstRecallSucceeded": true,
+      "secondRecallSucceeded": true
+    },
+    {
+      "seed": 2,
+      "delayHours": 24,
+      "populationOverlap": 0.1111111111111111,
+      "firstRecallSelectivity": 1.2865553148722064E-05,
+      "secondRecallSelectivity": 1.500627523287612E-05,
+      "firstRecallSucceeded": true,
+      "secondRecallSucceeded": true
+    },
+    {
+      "seed": 3,
+      "delayHours": 24,
+      "populationOverlap": 0.14285714285714285,
+      "firstRecallSelectivity": 1.1569794430843494E-05,
+      "secondRecallSelectivity": 1.030390830536465E-05,
+      "firstRecallSucceeded": true,
+      "secondRecallSucceeded": true
+    },
+    {
+      "seed": 4,
+      "delayHours": 24,
+      "populationOverlap": 0.14285714285714285,
+      "firstRecallSelectivity": 1.0853661726040187E-05,
+      "secondRecallSelectivity": 1.3424345770229884E-05,
+      "firstRecallSucceeded": true,
+      "secondRecallSucceeded": true
+    },
+    {
+      "seed": 5,
+      "delayHours": 24,
+      "populationOverlap": 0.14285714285714285,
+      "firstRecallSelectivity": 1.2732207091414871E-05,
+      "secondRecallSelectivity": 8.49298487626271E-06,
+      "firstRecallSucceeded": true,
+      "secondRecallSucceeded": true
+    },
+    {
+      "seed": 6,
+      "delayHours": 24,
+      "populationOverlap": 0.14285714285714285,
+      "firstRecallSelectivity": 1.188015671871323E-05,
+      "secondRecallSelectivity": 1.4612825713355981E-05,
+      "firstRecallSucceeded": true,
+      "secondRecallSucceeded": true
+    },
+    {
+      "seed": 7,
+      "delayHours": 24,
+      "populationOverlap": 0.14285714285714285,
+      "firstRecallSelectivity": 8.509184759697419E-06,
+      "secondRecallSelectivity": 1.0842259583476732E-05,
+      "firstRecallSucceeded": true,
+      "secondRecallSucceeded": true
+    },
+    {
+      "seed": 8,
+      "delayHours": 24,
+      "populationOverlap": 0.14285714285714285,
+      "firstRecallSelectivity": 1.2006115034268738E-05,
+      "secondRecallSelectivity": 9.887557546384151E-06,
+      "firstRecallSucceeded": true,
+      "secondRecallSucceeded": true
+    },
+    {
+      "seed": 1,
+      "delayHours": 72,
+      "populationOverlap": 0.17647058823529413,
+      "firstRecallSelectivity": 7.805762240464809E-06,
+      "secondRecallSelectivity": 1.3156549582671317E-05,
+      "firstRecallSucceeded": true,
+      "secondRecallSucceeded": true
+    },
+    {
+      "seed": 2,
+      "delayHours": 72,
+      "populationOverlap": 0.1111111111111111,
+      "firstRecallSelectivity": 9.926015909433872E-06,
+      "secondRecallSelectivity": 1.5799569268115654E-05,
+      "firstRecallSucceeded": true,
+      "secondRecallSucceeded": true
+    },
+    {
+      "seed": 3,
+      "delayHours": 72,
+      "populationOverlap": 0.14285714285714285,
+      "firstRecallSelectivity": 1.0320586475986993E-05,
+      "secondRecallSelectivity": 1.2674804313661525E-05,
+      "firstRecallSucceeded": true,
+      "secondRecallSucceeded": true
+    },
+    {
+      "seed": 4,
+      "delayHours": 72,
+      "populationOverlap": 0.14285714285714285,
+      "firstRecallSelectivity": 9.059859409132898E-06,
+      "secondRecallSelectivity": 1.4404062992579014E-05,
+      "firstRecallSucceeded": true,
+      "secondRecallSucceeded": true
+    },
+    {
+      "seed": 5,
+      "delayHours": 72,
+      "populationOverlap": 0.14285714285714285,
+      "firstRecallSelectivity": 1.134371416711133E-05,
+      "secondRecallSelectivity": 1.0899908394423896E-05,
+      "firstRecallSucceeded": true,
+      "secondRecallSucceeded": true
+    },
+    {
+      "seed": 6,
+      "delayHours": 72,
+      "populationOverlap": 0.14285714285714285,
+      "firstRecallSelectivity": 1.1326058998784028E-05,
+      "secondRecallSelectivity": 1.5409100937557874E-05,
+      "firstRecallSucceeded": true,
+      "secondRecallSucceeded": true
+    },
+    {
+      "seed": 7,
+      "delayHours": 72,
+      "populationOverlap": 0.14285714285714285,
+      "firstRecallSelectivity": 6.40066873003331E-06,
+      "secondRecallSelectivity": 1.515615030922568E-05,
+      "firstRecallSucceeded": true,
+      "secondRecallSucceeded": true
+    },
+    {
+      "seed": 8,
+      "delayHours": 72,
+      "populationOverlap": 0.1111111111111111,
+      "firstRecallSelectivity": 1.1462930142425165E-05,
+      "secondRecallSelectivity": 1.3329802198036589E-05,
+      "firstRecallSucceeded": true,
+      "secondRecallSucceeded": true
+    },
+    {
+      "seed": 1,
+      "delayHours": 168,
+      "populationOverlap": 0.14285714285714285,
+      "firstRecallSelectivity": 5.428881701852184E-06,
+      "secondRecallSelectivity": 1.8837739314436774E-05,
+      "firstRecallSucceeded": true,
+      "secondRecallSucceeded": true
+    },
+    {
+      "seed": 2,
+      "delayHours": 168,
+      "populationOverlap": 0.08108108108108109,
+      "firstRecallSelectivity": 7.416803698090391E-06,
+      "secondRecallSelectivity": 2.412644678750908E-05,
+      "firstRecallSucceeded": true,
+      "secondRecallSucceeded": true
+    },
+    {
+      "seed": 3,
+      "delayHours": 168,
+      "populationOverlap": 0.14285714285714285,
+      "firstRecallSelectivity": 7.724559908273143E-06,
+      "secondRecallSelectivity": 1.754874855952604E-05,
+      "firstRecallSucceeded": true,
+      "secondRecallSucceeded": true
+    },
+    {
+      "seed": 4,
+      "delayHours": 168,
+      "populationOverlap": 0.14285714285714285,
+      "firstRecallSelectivity": 8.965710268649119E-06,
+      "secondRecallSelectivity": 2.106583567429432E-05,
+      "firstRecallSucceeded": true,
+      "secondRecallSucceeded": true
+    },
+    {
+      "seed": 5,
+      "delayHours": 168,
+      "populationOverlap": 0.1111111111111111,
+      "firstRecallSelectivity": 9.590820084226515E-06,
+      "secondRecallSelectivity": 1.7496877343092798E-05,
+      "firstRecallSucceeded": true,
+      "secondRecallSucceeded": true
+    },
+    {
+      "seed": 6,
+      "delayHours": 168,
+      "populationOverlap": 0.14285714285714285,
+      "firstRecallSelectivity": 8.954105838343551E-06,
+      "secondRecallSelectivity": 2.0472889031397656E-05,
+      "firstRecallSucceeded": true,
+      "secondRecallSucceeded": true
+    },
+    {
+      "seed": 7,
+      "delayHours": 168,
+      "populationOverlap": 0.1111111111111111,
+      "firstRecallSelectivity": 2.849194429499491E-06,
+      "secondRecallSelectivity": 2.1697392760589018E-05,
+      "firstRecallSucceeded": true,
+      "secondRecallSucceeded": true
+    },
+    {
+      "seed": 8,
+      "delayHours": 168,
+      "populationOverlap": 0.1111111111111111,
+      "firstRecallSelectivity": 8.045419122582054E-06,
+      "secondRecallSelectivity": 1.8521552203387692E-05,
+      "firstRecallSucceeded": true,
+      "secondRecallSucceeded": true
+    }
+  ],
+  "delays": [
+    {
+      "delayHours": 0,
+      "populationOverlap": {
+        "count": 8,
+        "mean": 0.14309056956115776,
+        "standardDeviation": 0.016344870516467994,
+        "median": 0.14285714285714285,
+        "minimum": 0.1111111111111111,
+        "maximum": 0.17647058823529413,
+        "confidenceLower": 0.13095238095238096,
+        "confidenceUpper": 0.15546218487394955
+      },
+      "firstRecallSelectivity": {
+        "count": 8,
+        "mean": 1.1019010361004722E-05,
+        "standardDeviation": 1.5021711329298017E-06,
+        "median": 1.1279345600301305E-05,
+        "minimum": 8.503767022438602E-06,
+        "maximum": 1.3017583754493245E-05,
+        "confidenceLower": 9.94327015421681E-06,
+        "confidenceUpper": 1.2041644843382298E-05
+      },
+      "secondRecallSelectivity": {
+        "count": 8,
+        "mean": 1.1289897053623488E-05,
+        "standardDeviation": 2.0746649817878454E-06,
+        "median": 1.1064587425668737E-05,
+        "minimum": 7.883454794965772E-06,
+        "maximum": 1.4232481427178811E-05,
+        "confidenceLower": 9.803395634502831E-06,
+        "confidenceUpper": 1.2702915383345712E-05
+      },
+      "jointRecallSuccessRate": 1
+    },
+    {
+      "delayHours": 6,
+      "populationOverlap": {
+        "count": 8,
+        "mean": 0.14309056956115776,
+        "standardDeviation": 0.016344870516467994,
+        "median": 0.14285714285714285,
+        "minimum": 0.1111111111111111,
+        "maximum": 0.17647058823529413,
+        "confidenceLower": 0.13095238095238096,
+        "confidenceUpper": 0.15546218487394955
+      },
+      "firstRecallSelectivity": {
+        "count": 8,
+        "mean": 1.1068063937871853E-05,
+        "standardDeviation": 1.5756212830870625E-06,
+        "median": 1.1478130959530208E-05,
+        "minimum": 8.276946275920238E-06,
+        "maximum": 1.3010151570180817E-05,
+        "confidenceLower": 9.895283242905908E-06,
+        "confidenceUpper": 1.2088050751077328E-05
+      },
+      "secondRecallSelectivity": {
+        "count": 8,
+        "mean": 1.1478836535211423E-05,
+        "standardDeviation": 2.094740349465811E-06,
+        "median": 1.1317252197884375E-05,
+        "minimum": 7.935716049289887E-06,
+        "maximum": 1.4283646914581283E-05,
+        "confidenceLower": 1.0047308006650921E-05,
+        "confidenceUpper": 1.2844549493702672E-05
+      },
+      "jointRecallSuccessRate": 1
+    },
+    {
+      "delayHours": 24,
+      "populationOverlap": {
+        "count": 8,
+        "mean": 0.14309056956115776,
+        "standardDeviation": 0.016344870516467994,
+        "median": 0.14285714285714285,
+        "minimum": 0.1111111111111111,
+        "maximum": 0.17647058823529413,
+        "confidenceLower": 0.13095238095238093,
+        "confidenceUpper": 0.15546218487394958
+      },
+      "firstRecallSelectivity": {
+        "count": 8,
+        "mean": 1.1183386701044129E-05,
+        "standardDeviation": 1.5145060420143413E-06,
+        "median": 1.1724975574778362E-05,
+        "minimum": 8.509184759697419E-06,
+        "maximum": 1.2865553148722064E-05,
+        "confidenceLower": 1.0124015866501413E-05,
+        "confidenceUpper": 1.21890795164864E-05
+      },
+      "secondRecallSelectivity": {
+        "count": 8,
+        "mean": 1.1693911816199054E-05,
+        "standardDeviation": 2.2124796311049066E-06,
+        "median": 1.0911698542559467E-05,
+        "minimum": 8.49298487626271E-06,
+        "maximum": 1.500627523287612E-05,
+        "confidenceLower": 1.0210056395815181E-05,
+        "confidenceUpper": 1.320938675689713E-05
+      },
+      "jointRecallSuccessRate": 1
+    },
+    {
+      "delayHours": 72,
+      "populationOverlap": {
+        "count": 8,
+        "mean": 0.1391223155929038,
+        "standardDeviation": 0.019473999640162665,
+        "median": 0.14285714285714285,
+        "minimum": 0.1111111111111111,
+        "maximum": 0.17647058823529413,
+        "confidenceLower": 0.12698412698412698,
+        "confidenceUpper": 0.15149393090569563
+      },
+      "firstRecallSelectivity": {
+        "count": 8,
+        "mean": 9.70569950917155E-06,
+        "standardDeviation": 1.7238489348954574E-06,
+        "median": 1.0123301192710432E-05,
+        "minimum": 6.40066873003331E-06,
+        "maximum": 1.1462930142425165E-05,
+        "confidenceLower": 8.489878409734253E-06,
+        "confidenceUpper": 1.0827849476065936E-05
+      },
+      "secondRecallSelectivity": {
+        "count": 8,
+        "mean": 1.3853743499533944E-05,
+        "standardDeviation": 1.5443494990343329E-06,
+        "median": 1.3866932595307802E-05,
+        "minimum": 1.0899908394423896E-05,
+        "maximum": 1.5799569268115654E-05,
+        "confidenceLower": 1.2737307567744702E-05,
+        "confidenceUpper": 1.4877132106490623E-05
+      },
+      "jointRecallSuccessRate": 1
+    },
+    {
+      "delayHours": 168,
+      "populationOverlap": {
+        "count": 8,
+        "mean": 0.12323037323037322,
+        "standardDeviation": 0.0216738111426027,
+        "median": 0.12698412698412698,
+        "minimum": 0.08108108108108109,
+        "maximum": 0.14285714285714285,
+        "confidenceLower": 0.10778635778635778,
+        "confidenceUpper": 0.13522897897897845
+      },
+      "firstRecallSelectivity": {
+        "count": 8,
+        "mean": 7.371936881439556E-06,
+        "standardDeviation": 2.0849883681481402E-06,
+        "median": 7.884989515427598E-06,
+        "minimum": 2.849194429499491E-06,
+        "maximum": 9.590820084226515E-06,
+        "confidenceLower": 5.844685721526771E-06,
+        "confidenceUpper": 8.65532936918656E-06
+      },
+      "secondRecallSelectivity": {
+        "count": 8,
+        "mean": 1.9970935209279173E-05,
+        "standardDeviation": 2.15268702284038E-06,
+        "median": 1.9655314172917215E-05,
+        "minimum": 1.7496877343092798E-05,
+        "maximum": 2.412644678750908E-05,
+        "confidenceLower": 1.8588242063205877E-05,
+        "confidenceUpper": 2.162425914707493E-05
+      },
+      "jointRecallSuccessRate": 1
+    }
+  ]
+}

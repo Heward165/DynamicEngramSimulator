@@ -1,0 +1,18 @@
+{
+  "name": "factorial-interactions",
+  "kind": "Factorial",
+  "options": {
+    "neuronCount": 128,
+    "defaultEngramSize": 20,
+    "driftFractionPerDay": 0.02,
+    "recallIterations": 8
+  },
+  "seeds": [101, 102, 103, 104, 105, 106, 107, 108],
+  "createdAt": "2026-07-17T00:00:00Z",
+  "activeStimulusChannels": 24,
+  "relatedStimulusRetention": 0.70,
+  "cueFraction": 0.25,
+  "elapsedDays": 30,
+  "ablations": ["RecallInhibition", "InhibitoryPlasticity", "Consolidation", "PopulationDrift"],
+  "maximumInteractionOrder": 2
+}
